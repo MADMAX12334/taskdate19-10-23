@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <title>pseduo elements</title>
+        <style>
+            *{
+                background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(wp1874184.jpg);
+                 background-size: cover;
+                 background-position: center;
+            }
+            h1 {
+                color: aqua;
+            }
+            table,td,th {
+                border: 1px solid yellowgreen;
+                text-align: center;
+            }
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            th,td {
+                padding: 15px;
+            }
+          h1:hover{
+            color: rgb(204, 17, 17);
+          }
+          .pselecting:hover{
+            color: rgb(121, 8, 12);
+          }
+          tr td:nth-child(2){
+            background-color: red;
+          }
+          ul li::before{
+            list-style-type: none;
+            content: url("sports_cricket_FILL0_wght400_GRAD0_opsz24.png");
+          }
+           th{
+            background-color: #04AA6D;
+            color: green;
+           }
+           tr td:nth-last-child(odd){
+            color: red;
+            background-color: red;
+           }
+        td{
+            color: green;
+            background-color: red;
+        }
+        th,td {
+
+        }
+        .psedueo:hover{
+            color:red;
+
+        }
+        .objective::after{
+            background-color:red;
+        }
+        h2:hover{
+        color: lime;
+            
+        }
+        .sign:after{
+            color: rgb(36, 13, 87);
+        }
+       ul:hover{
+            
+            background-color: fuchsia;
+        }
+        ul li:hover{
+            color: red;
+            background-color: greenyellow;
+        }
+        p:hover{
+            color: red;
+            background-color: green;
+        }
+        ol li:hover{
+            color: darkorchid;
+            background-color: greenyellow;
+        }
+             
+        </style>
+            
+    </head>
+    <body>
+        <center><h1>MY RESUME</h1></center>
+        <h1 class="OBJECTIVE">CAREER OBJECTIVE:</h1>
+        <p>looking for  an opportunity whre i can make my self with my skiis</p>
+        <h2>ACCADAMICS:</h2>
+        <table> 
+            <tr>
+                <th class="pselecting">QUALIFICATION</th>
+                <th>INSTITUTION</th>
+                <TH>YEAR OF PASSING</TH>
+                <TH>GPA</TH>
+            </tr>
+            <tr>
+                <td>SSC</td>
+                <td>SVS</td>
+                <TD>2017</TD>
+                <TD>83%</TD>
+            </tr>
+            <tr>
+                <td>INTER</td>
+                <td>SRI NARAYANA COLLEGE</td>
+                <TD>2019</TD>
+                <TD>86%</TD>
+            </tr>
+            <tr>
+                <td>BTECH</td>
+                <td>MALLA REDDY ENGINEERING COLLEGE</td>
+                <TD>2023</TD>
+                <TD>63%</TD>
+            </tr>
+        </table>
+        <details>
+            <summary class="psedueo">TECHNICAL-SKILLS</summary>
+            <OL>
+                <li>HTML</li>
+                <LI>CSS</LI>
+                <LI>C LANGUAGE</LI>
+            </OL>
+            <UL>MY HOBBIES
+                <LI>CRICKET</LI>
+                <LI>MOVIES </LI>
+                <LI>WRITYING</LI>
+            </UL>
+            <h2 class="sign">SIGNATURE:</h2>
+        </details>
+    </body>
+</html>
